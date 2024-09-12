@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 1em;
+
+}
+
+header img {
+    width: 9vw;
+
+}
+
+.abertura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.abertura img {
+    border-radius: 1em;
+    width: 100%;
+    box-shadow: 10px 10px 5px 12px #b5b5b5;
+
+
+}
