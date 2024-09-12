@@ -1,33 +1,88 @@
 * {
-    padding: 0;
-    margin: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 
-header {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin: 1em;
+body {
+    background-color: #03b8b8;
+    font-family: "Karla", sans-serif;
 
 }
 
-header img {
-    width: 9vw;
-
-}
-
-.abertura {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.abertura img {
+form {
+    background-color: #009999;
+    padding: 2em;
     border-radius: 1em;
-    width: 100%;
-    box-shadow: 10px 10px 5px 12px #b5b5b5;
 
+
+
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vw 10vw 0 10vw;
+
+
+}
+
+.campoNome {
+    display: flex;
+}
+
+h1 {
+    margin: 1em;
+}
+
+button {
+    width: 100%;
+    height: 3em;
+    border-radius: 0.5em;
+    background-color: #0a6d6d;
+    color: white;
+    border: none;
+}
+
+
+.primeiroNome input,
+.sobrenome input {
+    width: 100%;
+    height: 2.5em;
+    border: 1px solid rgb(170, 206, 204);
+    border-radius: 0.5em;
+
+}
+
+.primeiroNome {
+    margin-right: 1em;
+}
+
+.campoEmail input {
+    width: 100%;
+    height: 2.5em;
+    border: 1px solid rgb(170, 206, 204);
+    border-radius: 0.5em;
+}
+.campodeselecao{
+    display: flex;
+    align-items: center;
+}
+
+
+.selecao {
+    margin-right: 1em;
+    border: 1px solid rgb(170, 206, 204);
+    border-radius: 16em;
+    padding: 0.5em;
+    
+
+}
+.campoMensagem input{
+    width: 100%;
+    height: 10em;
+    border: 1px solid rgb(170, 206, 204);
+    border-radius: 0.5em;
 
 }
