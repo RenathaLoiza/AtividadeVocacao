@@ -1,0 +1,32 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #03b8b8;
+    font-family: "Karla", sans-serif;
+
+}
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 50%;
+    height: 3em;
+    border-radius: 0.5em;
+    background-color: #0a6d6d;
+    color: white;
+    border: none;
+
+    
+}
+
